@@ -1,0 +1,76 @@
+/* Root */
+@import './utils/variables';
+
+/* Base */
+@import './base';
+
+/*Container*/
+@import './layouts/container';
+
+/*Section*/
+@import './layouts/section';
+
+/* Util */
+@import './utils/utils';
+// @import './utils/mixins';
+
+/* Button */
+@import './components/buttons';
+
+/* Input */
+@import './components/input';
+
+/* Link */
+@import './components/links';
+
+/* Header */
+@import './layouts/header';
+
+/* Hero section */
+@import './layouts/hero-section';
+
+/* Texts */
+@import './utils/texts';
+
+/* Advantages section */
+@import './layouts/advantages-section';
+
+/* Traditions section */
+@import './layouts/traditions-section';
+
+/* Chefs section */
+@import './layouts/chefs-section';
+@import './components/chef-card';
+
+/* Formats section */
+@import './layouts/formats-section';
+@import './components/format-card';
+
+/* Carousel */
+@import './components/carousel-buttons';
+
+/* Pagination */
+@import './components/pagination';
+
+/* Contact section */
+@import './layouts/contact-section';
+
+/* Footer */
+@import './layouts/footer';
+
+/* Mobile menu*/
+@import './layouts/mobile-menu';
+
+/* Modal window */
+@import './layouts/modal';
+
+/* Form-terms */
+@import './layouts/form-terms';
+
+// .circle {
+//   @include circle(100px, 100px, white);
+// }
+
+// .circle-big {
+//   @include circle(200px, 200px, green);
+// }
